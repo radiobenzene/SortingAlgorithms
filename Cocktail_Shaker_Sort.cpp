@@ -67,7 +67,8 @@ int main()
 	int a[N];
 	CreateArray(a);
 	CocktailShakerSort(a);
-	PrintArray(a, N);
+	cout << " " << endl;
+	PrintArray(a, N); //N = 5
 	return 0;
 }
 
